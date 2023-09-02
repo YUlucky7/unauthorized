@@ -27,7 +27,7 @@ import random
 with open('user-agents.txt', 'r') as f:
     useragents = f.readlines()
 
-# 随机选择一个 useragent
+# 随机选择一个 user  agent
 random_useragent = random.choice(useragents).strip()
 
 headers={
