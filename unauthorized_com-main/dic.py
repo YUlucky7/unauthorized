@@ -54,7 +54,7 @@ def check_ldap(ip):
 def check_redis(ip):
     
 
-    # 检查 Redis 是否存在未授权访问漏洞
+    # 检查 Redis是否存在未授权访问漏洞
     host=f"{ip}"
     try:
         redis_response=redis.Redis(host=host,port=6379)
