@@ -15,7 +15,7 @@ def banner():
     f = Figlet(font='slant',width=400)
     print(f.renderText('unauthorized'))
     print('----------------------------------------------------------------------')
-    print('**********************************************************************')
+    print('************************************************************************')
 
 def get_time():
     return time.strftime("@ %Y-%m-%d /%H:%M:%S/", time.localtime())
@@ -23,7 +23,7 @@ def get_time():
 
 import random
 
-# 打开 useragents.txt 文件并读取所有行
+# 打开 useragents.txt 文件并读取所有行内容
 with open('user-agents.txt', 'r') as f:
     useragents = f.readlines()
 
