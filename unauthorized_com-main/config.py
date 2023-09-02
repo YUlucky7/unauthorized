@@ -10,7 +10,7 @@ choices=['zookeeper', 'ftp','elasticsearch','ldap','weblogic','vnc','hadoopyarn'
 def banner():
     print('命令行版未授权漏洞检测')
     print('version:1.0 | made by xkllz | date:2023/05/02')
-    print('**********************************************************************')
+    print('***********************************************************************')
     print('----------------------------------------------------------------------')
     f = Figlet(font='slant',width=400)
     print(f.renderText('unauthorized'))
